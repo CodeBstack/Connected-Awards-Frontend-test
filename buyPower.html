@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/664302148c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Increase Your Voting power</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="img">
+        <img src="/img/logo.svg" alt="logo" width="96x" height="50px" />
+      </div>
+      <div class="lists">
+        <ul class="nav-lists">
+          <li class="nav-list">
+            <a href="votingCategories.html">Categories</a>
+          </li>
+          <li class="nav-list">
+            <a href="celebratedTechies.html">Past editions</a>
+          </li>
+          <li class="nav-list">
+            <a href="futureEdition.html">Future editions</a>
+          </li>
+          <li class="nav-list">
+            <a href="photoGallery.html">About us</a>
+          </li>
+          <li class="nav-list">
+            <a href="donate.html">Make a donation</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-btn">
+        <a href="votes.html" class="nav-btn-1 w"
+          ><i class="fa-solid fa-bolt"></i> 70</a
+        >
+        <select name="user" id="user">
+          <option value="name">
+            <i class="fa-solid fa-circle-user"></i>Williams Chinedu
+          </option>
+          <option value="sign out"><a href="#">Sign out</a></option>
+        </select>
+      </div>
+    </nav>
+    <section class="buy-power">
+      <div class="main-box">
+        <div class="main-box-heading">
+          <h2>Increase Your Voting Power</h2>
+          <h3>Check Your Favourite Nominee to Success</h3>
+        </div>
+        <div class="main-boxes main-box-1">
+          <div class="vote-num">
+            <h2>20</h2>
+            <p>Votes</p>
+          </div>
+          <h1>$2.50</h1>
+          <button class="buy btn--show-modal">Buy</button>
+        </div>
+        <div class="main-boxes main-box-2">
+          <div class="vote-num">
+            <h2>45</h2>
+            <p>Votes</p>
+          </div>
+          <h1>$5</h1>
+          <button class="buy btn--show-modal">Buy</button>
+        </div>
+        <div class="main-boxes main-box-3">
+          <div class="vote-num">
+            <h2>70</h2>
+            <p>Votes</p>
+          </div>
+          <h1>$7.50</h1>
+          <button class="buy btn--show-modal">Buy</button>
+        </div>
+        <div class="main-boxes main-box-4">
+          <div class="vote-num">
+            <h2>100</h2>
+            <p>Votes</p>
+          </div>
+          <h1>$10</h1>
+          <button class="buy btn--show-modal">Buy</button>
+        </div>
+      </div>
+
+      <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <img src="/img/thumbs-up-svgrepo-com 1.svg" alt="thumbs-up" />
+        <h3 class="modal__header">Awesome</h3>
+        <p>
+          You have successfully Increased your voting power. Go and make your
+          favorite candidate win!
+        </p>
+
+        <button class="return anchor">
+          <a href="votes.html">Go to voting page</a>
+        </button>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

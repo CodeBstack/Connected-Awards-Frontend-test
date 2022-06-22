@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/664302148c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Create Account</title>
+  </head>
+  <body>
+    <section class="container_create-account">
+      <div class="create-account-card">
+        <h2 class="create-account-heading">
+          Time to vote your favourite Techie,<br />
+          let's make this amazing!
+        </h2>
+        <h3>Create an account</h3>
+        <p>Have an account? <a href="login.html">Login</a></p>
+
+        <button class="google-btn">Continue with google</button>
+
+        <div class="or">
+          <hr />
+          <h3>OR</h3>
+          <hr />
+        </div>
+
+        <form class="create-account-form">
+          <div class="create-account-name">
+            <label>First Name</label>
+            <input type="text" class="name" />
+            <label>Last Name</label>
+            <input type="text" class="name" />
+          </div>
+
+          <label>Email Address</label>
+          <input type="email" class="create-account-email" />
+          <label>Phone Number</label>
+          <input type="text" />
+          <label> Set Password</label>
+          <input type="password" class="create-account-password" />
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="none">None</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </form>
+
+        <button class="create-account">Create my Account</button>
+
+        <button class="reset-password">Forgot Password</button>
+      </div>
+    </section>
+  </body>
+</html>
